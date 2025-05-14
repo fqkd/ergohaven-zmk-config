@@ -84,12 +84,12 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <22 21>;
+            key-positions = <22 23>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <23 22>;
+            key-positions = <23 24>;
         };
 
         Comm {
@@ -100,6 +100,11 @@
         ruquest {
             bindings = <&kp LS(N7)>;
             key-positions = <11 13>;
+        };
+
+        rudot {
+            bindings = <&kp SLASH>;
+            key-positions = <12 11>;
         };
     };
 
