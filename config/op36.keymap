@@ -78,7 +78,7 @@
         };
 
         quest {
-            bindings = <&kp SLASH>;
+            bindings = <&kp LS(SLASH)>;
             key-positions = <18 16>;
         };
 
@@ -122,10 +122,10 @@
 
         nav {
             bindings = <
-  &mt LS(N1) N1                  &mt LS(N2) N2             &mt LS(N3) N3         &mt LS(N4) N4                    &mt LS(N5) N5                    &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
-  &mt LS(N6) N6                  &mt LS(N7) N7             &mt LS(N8) N8         &mt LS(N9) N9                    &mt LS(N0) N0                    &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &mt LC(LEFT_ARROW) LEFT_ARROW  &mt PAGE_DOWN DOWN_ARROW  &mt PAGE_UP UP_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW  &kp DELETE                       &kp CAPS         &none            &kp PG_DN        &kp FSLH      &kp BSLH
-                                                                                 &trans                           &trans         &trans    &trans  &mo 3            &trans
+  &mt LS(N1) N1                  &mt LS(N2) N2             &mt LS(N3) N3         &mt LS(N4) N4                    &mt LS(N5) N5                    &trans  &trans           &trans           &trans        &trans
+  &mt LS(N6) N6                  &mt LS(N7) N7             &mt LS(N8) N8         &mt LS(N9) N9                    &mt LS(N0) N0                    &trans  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
+  &mt LC(LEFT_ARROW) LEFT_ARROW  &mt PAGE_DOWN DOWN_ARROW  &mt PAGE_UP UP_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW  &kp DELETE                       &trans  &none            &trans           &kp FSLH      &kp BSLH
+                                                                                 &trans                           &trans         &trans    &trans  &mo 3   &trans
             >;
         };
 
