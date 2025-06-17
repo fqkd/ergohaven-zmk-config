@@ -78,6 +78,35 @@
             key-positions = <13 12>;
             layers = <1>;
         };
+
+        dot_en {
+            bindings = <&kp DOT>;
+            key-positions = <12 11>;
+            layers = <0>;
+        };
+
+        dot_ru {
+            bindings = <&kp RU_DOT>;
+            key-positions = <12 11>;
+            layers = <1>;
+        };
+
+        mark_en {
+            bindings = <&kp QMARK>;
+            key-positions = <11 13>;
+            layers = <0>;
+        };
+
+        mark_ru {
+            bindings = <&kp RU_QMARK>;
+            key-positions = <11 13>;
+            layers = <1>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 0>;
+        };
     };
 
     macros {
