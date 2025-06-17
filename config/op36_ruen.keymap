@@ -57,14 +57,24 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
             layers = <0>;
+        };
+
+        comma_en {
+            bindings = <&kp COMMA>;
+            key-positions = <13 12>;
+        };
+
+        comma_ru {
+            bindings = <&kp RU_COMMA>;
+            key-positions = <13 12>;
         };
     };
 
