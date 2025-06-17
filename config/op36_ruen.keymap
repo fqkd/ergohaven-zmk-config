@@ -70,11 +70,13 @@
         comma_en {
             bindings = <&kp COMMA>;
             key-positions = <13 12>;
+            layers = <0>;
         };
 
         comma_ru {
             bindings = <&kp RU_COMMA>;
             key-positions = <13 12>;
+            layers = <1>;
         };
     };
 
