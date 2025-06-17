@@ -107,6 +107,21 @@
             bindings = <&kp ESC>;
             key-positions = <1 0>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <22 23>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <23 24>;
+        };
+
+        prtscrn {
+            bindings = <&kp LA(T)>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
@@ -156,19 +171,19 @@
 
         en {
             bindings = <
-  &kp Q        &kp W        &kp E         &kp R          &kp T                          &kp Y  &kp U         &kp I         &kp O        &kp P
-  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F   &kp G                          &kp H  &hmr RCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RGUI SEMICOLON
-  &hml LSHFT Z &mt LC(X) X  &mt LC(C) C   &mt LC(V) V    &kp B                          &kp N  &kp M         &kp COMMA     &kp DOT      &hmr RSHFT SQT
-                                          &kp LS(LG(RIGHT_ARROW))  &lt 4 BACKSPACE  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+  &kp Q         &kp W        &kp E         &kp R                    &mt GRAVE T                              &kp Y  &kp U         &kp I         &kp O        &kp P
+  &hml LGUI A   &hml LALT S  &hml LSHFT D  &hml LCTRL F             &kp G                                    &kp H  &hmr RCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RGUI SEMICOLON
+  &hml LSHFT Z  &mt LC(X) X  &mt LC(C) C   &mt LC(V) V              &kp B                                    &kp N  &kp M         &kp COMMA     &kp DOT      &hmr RSHFT SQT
+                                           &kp LS(LG(RIGHT_ARROW))  &lt 4 BACKSPACE  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
         };
 
         ru {
             bindings = <
-  &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE                      &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
-  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU               &hml LSHFT RU_CYRILLIC_VE  &hml LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr RCTRL RU_CYRILLIC_O   &hmr RSHFT RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
-  &hml LSHFT RU_CYRILLIC_YA &mt LC(RU_CYRILLIC_CHE) RU_CYRILLIC_CHE  &mt LC(RU_CYRILLIC_ES) RU_CYRILLIC_ES         &mt LC(RU_CYRILLIC_EM) RU_CYRILLIC_EM        &mt LC(RU_CYRILLIC_I) RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &hmr RSHFT RU_CYRILLIC_E
-                                                                                                &kp BACKSPACE             &mo 4               &kp SPACE    &kp ENTER  &mo 3               &kp TAB
+  &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_TSE                      &kp RU_CYRILLIC_U                      &kp RU_CYRILLIC_KA                     &mt RU_CYRILLIC_IO RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
+  &hml LGUI RU_CYRILLIC_EF   &hml LALT RU_CYRILLIC_YERU               &hml LSHFT RU_CYRILLIC_VE              &hml LCTRL RU_CYRILLIC_A               &kp RU_CYRILLIC_PE                                         &kp RU_CYRILLIC_ER  &hmr RCTRL RU_CYRILLIC_O   &hmr RSHFT RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
+  &hml LSHFT RU_CYRILLIC_YA  &mt LC(RU_CYRILLIC_CHE) RU_CYRILLIC_CHE  &mt LC(RU_CYRILLIC_ES) RU_CYRILLIC_ES  &mt LC(RU_CYRILLIC_EM) RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                                          &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &hmr RSHFT RU_CYRILLIC_E
+                                                                                                             &kp BACKSPACE                          &mo 4                              &kp SPACE    &kp ENTER  &mo 3               &kp TAB
             >;
         };
 
@@ -195,7 +210,7 @@
   &mt LS(N1) N1                  &mt LS(N2) N2             &mt LS(N3) N3         &mt LS(N4) N4                    &mt LS(N5) N5                    &trans  &trans           &trans           &trans        &trans
   &mt LS(N6) N6                  &mt LS(N7) N7             &mt LS(N8) N8         &mt LS(N9) N9                    &mt LS(N0) N0                    &trans  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
   &mt LC(LEFT_ARROW) LEFT_ARROW  &mt PAGE_DOWN DOWN_ARROW  &mt PAGE_UP UP_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW  &kp DELETE                       &trans  &none            &trans           &kp FSLH      &kp BSLH
-                                      &trans     &none       &trans    &trans  &mo 5            &trans
+                                                                                 &trans                           &none          &trans    &trans  &mo 5   &trans
             >;
         };
 
