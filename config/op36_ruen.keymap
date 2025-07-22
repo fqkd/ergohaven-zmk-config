@@ -186,6 +186,8 @@
   &hml LSHFT Z  &mt LC(X) X  &mt LC(C) C   &mt LC(V) V              &kp B                                    &kp N  &kp M         &kp COMMA     &kp DOT      &hmr RSHFT SQT
                                            &kp LS(LG(RIGHT_ARROW))  &lt 4 BACKSPACE  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
+
+            display-name = "En";
         };
 
         ru {
@@ -195,6 +197,8 @@
   &hml LSHFT RU_CYRILLIC_YA  &mt LC(RU_CYRILLIC_CHE) RU_CYRILLIC_CHE  &mt LC(RU_CYRILLIC_ES) RU_CYRILLIC_ES  &mt LC(RU_CYRILLIC_EM) RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                                          &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &hmr RSHFT RU_CYRILLIC_E
                                                                                                              &kp LS(LG(RIGHT))                      &lt 4 BACKSPACE                    &kp SPACE    &kp ENTER  &mo 3               &kp TAB
             >;
+
+            display-name = "Ru";
         };
 
         sym_en {
@@ -204,6 +208,8 @@
   &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                     &kp AT     &kp PIPE         &kp COMMA        &kp DOT         &kp QMARK
                                                     &trans           &mo 5      &trans    &trans  &none      &trans
             >;
+
+            display-name = "Sym En";
         };
 
         sym_ru {
@@ -213,6 +219,8 @@
   &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT     &en PIPE  &kp RU_COMMA        &kp RU_DOT  &kp RU_QMARK
                                                             &trans           &mo 5      &trans    &trans  &none      &trans
             >;
+
+            display-name = "Sym Ru";
         };
 
         nav {
@@ -222,6 +230,8 @@
   &mt LC(LEFT_ARROW) LEFT_ARROW  &mt PAGE_DOWN DOWN_ARROW  &mt PAGE_UP UP_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW  &kp DELETE                       &trans  &none            &trans           &kp FSLH      &kp BSLH
                                                                                  &trans                           &none          &trans    &trans  &mo 5   &trans
             >;
+
+            display-name = "Navigation";
         };
 
         adj {
@@ -249,6 +259,8 @@
   &kp LCTRL  &kp A   &kp S   &kp D   &kp F                        &trans  &trans  &trans  &trans  &trans
                              &kp B   &trans  &kp SPACE    &trans  &trans  &to 0
             >;
+
+            display-name = "Adjust";
         };
     };
 };
