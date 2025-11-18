@@ -76,7 +76,7 @@
         comma_ru {
             bindings = <&kp RU_COMMA>;
             key-positions = <13 12>;
-            layers = <1>;
+            layers = <1 2>;
         };
 
         dot_en {
@@ -88,7 +88,7 @@
         dot_ru {
             bindings = <&kp RU_DOT>;
             key-positions = <12 11>;
-            layers = <1>;
+            layers = <1 2>;
         };
 
         mark_en {
@@ -100,7 +100,7 @@
         mark_ru {
             bindings = <&kp RU_QMARK>;
             key-positions = <11 13>;
-            layers = <1>;
+            layers = <1 2>;
         };
 
         esc {
@@ -136,21 +136,25 @@
         Semi_en {
             bindings = <&kp SEMICOLON>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         en_dvoetoch {
             bindings = <&kp LS(SEMICOLON)>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         ru_semicolon {
             bindings = <&kp RU_SEMICOLON>;
             key-positions = <17 16>;
+            layers = <1 2>;
         };
 
         ru_dvoetoch {
             bindings = <&kp RU_COLON>;
             key-positions = <17 18>;
+            layers = <1 2>;
         };
 
         klavagonki {
@@ -241,7 +245,7 @@
         };
 
         Klavagonki {
-            display-name = "Ru";
+            display-name = "KGonki";
             bindings = <
   &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &mt RU_CYRILLIC_IO RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE
   &kp RU_CYRILLIC_EF         &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                                         &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE
