@@ -46,13 +46,13 @@
         kha {
             bindings = <&kp RU_CYRILLIC_HA>;
             key-positions = <6 7>;
-            layers = <1>;
+            layers = <1 2>;
         };
 
         hrdsgn {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <7 8>;
-            layers = <1>;
+            layers = <1 2>;
         };
 
         cmben {
