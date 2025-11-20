@@ -161,6 +161,11 @@
             bindings = <&tog 2>;
             key-positions = <30 35>;
         };
+
+        en_vskl {
+            bindings = <&kp RU_EXCL>;
+            key-positions = <16 18>;
+        };
     };
 
     macros {
